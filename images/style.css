@@ -13,7 +13,6 @@
 [class^="icon-"],
 [class*=" icon-"] {
   font-family: 'arlad';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -61,13 +60,13 @@
 .icon-delete:before {
   content: "\e62e";
 }
-.fa-facebook:before {
+.icon-facebook:before {
   content: "\e610";
 }
 .icon-google:before {
   content: "\e611";
 }
-.fa-brands fa-twitter:before {
+.icon-twitter:before {
   content: "\e612";
 }
 .icon-instagram:before {
@@ -599,6 +598,8 @@ p {
   line-height: 1.8;
   word-wrap: break-word;
   margin-bottom: 1em;
+  text-align: justify;
+
 }
 code {
   padding: 2px 4px;
@@ -3311,7 +3312,7 @@ code {
   left: 5px;
   margin-top: -12px;
   font-family: 'arlad';
-  speak: none;
+
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -4378,7 +4379,6 @@ code {
 }
 .children .comment-avatar:before {
   font-family: 'arlad';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -4970,7 +4970,7 @@ code {
   font-size: 14px;
   color: #464A52;
   text-align: left;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 .section-contact .map .gmap-tooltip h6 {
   color: rgba(236,127,35);
@@ -4979,17 +4979,36 @@ code {
 .section-contact .btn {
   z-index: 1;
 }
+
 /* Footer */
 /*-----------------------------------*/
-* new footer */
+/* .footer {
+  position: relative;
+  background: rgba(236,127,35,.9);
+  padding: 50px 0;
+
+}
+.footer .social-links {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.footer .social-links a {
+  background-color: transparent;
+} */
+
+/* new footer */
 .footer{
   background: #111;
   height: auto;
-  width: 100vw;
+  max-width: 100%;
   font-family: 'Courier New', Courier, monospace;
   padding-top: 40px;
   color: #fff;
   padding: 50px 0;
+}
+.footer-content .logo1{
+ max-height: 100%;
+ max-width: 100%;
 }
 .footer-content{
   display: flex;
@@ -5011,6 +5030,7 @@ code {
   margin: 10px auto;
   line-height: 28px;
   font-size: 14px;
+  text-align: center;
 }
 .social{
   list-style: none;
@@ -5039,6 +5059,7 @@ code {
   width: 100vw;
   padding: 20px 0;
   text-align: center;
+
 }
 .footer-bottom a{
   color: orange;
@@ -5047,6 +5068,7 @@ code {
   font-size: 14px;
   word-spacing: 2px;
   text-transform: capitalize;
+  text-align: center;
 }
 .footer-bottom span{
   text-transform :uppercase;
@@ -5054,6 +5076,17 @@ code {
   font-weight: 200;
 }
 /* end new footer */
+#parcdonate1 .box1 p{
+  padding: 0px 250px 0px 0px;
+  align-items: center;
+}
+
+#parcdonate1 .box1 h3{
+  padding: 0px 250px 0px 0px;
+  color:rgba(236,127,35);
+  font-style: oblique;
+}
+#parcdonate1
 .footer .subscribe-form .input-group {
   float: right;
 }
@@ -5254,6 +5287,8 @@ code {
   font-weight: 300;
   color: #fff;
   padding: 0 0 5px 14px;
+  /* border: 3px solid green; */
+  text-align: center;
 }
 @media only screen and (max-width: 759px) {
   .footer {
@@ -6875,7 +6910,6 @@ textarea.form-control {
   width: 36px;
   cursor: pointer;
   font-family: 'arlad';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -7902,7 +7936,6 @@ textarea.form-control {
   color: rgba(236,127,35);
   cursor: pointer;
   font-family: 'arlad';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -8327,7 +8360,6 @@ textarea.form-control {
 .widget-instagram .instagram li a:after {
   content: '\e613';
   font-family: 'arlad';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -10830,9 +10862,6 @@ div.ppt {
 
 }
 
-
-
-
 #parcdonate .box{
   display: flex;
   justify-content: center;
@@ -10986,3 +11015,13 @@ background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(255,88,33,1) 0%, r
     }
 
 }
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2){
+     
+    #parcdonate .sinter .box1{
+      display: flex;
+      align-items: center;
+    }
+  }
