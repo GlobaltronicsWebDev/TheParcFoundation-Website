@@ -5000,10 +5000,15 @@ code {
   background: #111;
   height: auto;
   width: 100vw;
+  max-width: 100%;
   font-family: 'Courier New', Courier, monospace;
   padding-top: 40px;
   color: #fff;
   padding: 50px 0;
+}
+.footer-content .logo1{
+ max-height: 100%;
+ max-width: 100%;
 }
 .footer-content{
   display: flex;
@@ -5025,6 +5030,7 @@ code {
   margin: 10px auto;
   line-height: 28px;
   font-size: 14px;
+  text-align: center;
 }
 .social{
   list-style: none;
@@ -5062,6 +5068,7 @@ code {
   font-size: 14px;
   word-spacing: 2px;
   text-transform: capitalize;
+  text-align: center;
 }
 .footer-bottom span{
   text-transform :uppercase;
@@ -5071,6 +5078,7 @@ code {
 /* end new footer */
 #parcdonate1 .box1 p{
   padding: 0px 300px 0px 0px;
+  padding: 0px 250px 0px 0px;
   align-items: center;
 }
 
