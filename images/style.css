@@ -407,8 +407,7 @@ h6 {
   font-family: 'Arvo', serif;
   line-height: 1;
   word-wrap: break-word;
-  color: #464A52;
-  margin-bottom: .4em;
+  margin-bottom: 0.4em;
 }
 h1 .highlight,
 h2 .highlight,
@@ -541,7 +540,7 @@ h1 {
   font-size: 50px;
 }
 h2 {
-  font-size: 44px;
+  font-size: 50px;
 }
 h3 {
   font-size: 38px;
@@ -783,7 +782,6 @@ code {
   }
 }
 .section-title {
-  font-size: 50px;
   margin-bottom: .2em;
 }
 .section-title span {
@@ -10820,9 +10818,6 @@ div.ppt {
 
 }
 
-
-
-
 .iframe-container{
   position: relative;
   width: 100%;
@@ -10839,9 +10834,12 @@ div.ppt {
 
 
 #qrcode img{
-  margin: 20px 0px 20px 70px;
+  margin: 10px 10px 50px;
   max-width: 200px;
 }
+
+
+
 
 #kaliwa {
   margin-left: 50px;
