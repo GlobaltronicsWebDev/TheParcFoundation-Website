@@ -348,7 +348,7 @@ body {
 }
 @media only screen and (max-width: 1439px) {
   body {
-    font-size: 14px;
+    font-size: 20px;
   }
 }
 @media only screen and (max-width: 1119px) {
@@ -10835,7 +10835,7 @@ div.ppt {
 
 #qrcode img{
   margin: 10px 10px 50px;
-  max-width: 300px;
+  max-width: 316px;
 }
 
 
