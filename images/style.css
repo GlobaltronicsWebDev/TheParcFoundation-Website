@@ -1221,12 +1221,17 @@ code {
 }
 .main-header .carousel-indicators {
   position: absolute;
+<<<<<<< HEAD
   top: auto;
+=======
+>>>>>>> b076a5281a2820864b5b82866d9a9f489faaa42a
   left: 50%;
   bottom: 10px;
+  transform: translateX(-50%);
   width: auto;
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   transform: translateX(-50%);
 }
 .main-header .carousel-indicators li {
@@ -1236,22 +1241,47 @@ code {
   margin: 0 6px;
   background-color: transparent;
   border: 2px solid rgba(236,127,35,0.8);
+=======
+  text-align: center;
+}
+.main-header .carousel-indicators li {
+  display: inline-block;
+  float: none;
+  width: 12px;
+  height: 12px;
+  margin: 0 6px;
+  background-color: transparent;
+  border: 1px solid rgba(236,127,35,0.85);
+>>>>>>> b076a5281a2820864b5b82866d9a9f489faaa42a
   border-radius: 50%;
   transition: all 0.3s ease;
 }
 .main-header .carousel-indicators li.active {
+<<<<<<< HEAD
   background-color: rgba(236,127,35);
   border-color: rgba(236,127,35,0.8);
+=======
+  background-color: rgba(236,127,35,0.95);
+>>>>>>> b076a5281a2820864b5b82866d9a9f489faaa42a
 }
-.main-header .carousel-control {
+}
+.main-header .carousel-control,
+.header .carousel-control {
   position: absolute;
   top: 50%;
   left: 0;
   z-index: 2;
+<<<<<<< HEAD
   width: 60px;
   height: 60px;
   line-height: 60px;
   margin-top: -30px;
+=======
+  width: 80px;
+  height: 100px;
+  line-height: 100px;
+  transform: translateY(-50%);
+>>>>>>> b076a5281a2820864b5b82866d9a9f489faaa42a
   border: none;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.15);
@@ -1272,6 +1302,7 @@ code {
   transition: all 0.2s ease-out;
 }
 .main-header .carousel-control.left,
+<<<<<<< HEAD
 .main-header .carousel-control.right {
   display: inline-block;
   width: 60px;
@@ -1279,9 +1310,16 @@ code {
   line-height: 60px;
   background: rgba(255, 255, 255, 0.15);
   border-radius: 50%;
+=======
+.header .carousel-control.left,
+.main-header .carousel-control.right,
+.header .carousel-control.right {
+  background: none;
+>>>>>>> b076a5281a2820864b5b82866d9a9f489faaa42a
   filter: none;
 }
-.main-header .carousel-control.right {
+.main-header .carousel-control.right,
+.header .carousel-control.right {
   left: auto;
   right: 0;
 }
@@ -1518,7 +1556,8 @@ code {
     font-size: 20px;
   }
   .main-header .carousel-indicators li {
-    height: 8px;
+    width: 10px;
+    height: 10px;
   }
 }
 @media only screen and (max-width: 759px) {
